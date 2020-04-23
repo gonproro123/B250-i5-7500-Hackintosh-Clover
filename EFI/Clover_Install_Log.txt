@@ -1,0 +1,52 @@
+
+Clover EFI installer log - Wed Apr 22 21:52:00 PDT 2020
+Installer version: r5114 EFI bootloader
+======================================================
+/dev/disk0 (external):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         256.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         255.9 GB   disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +255.9 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume MAC                     11.1 GB    disk1s1
+   2:                APFS Volume Preboot                 20.3 MB    disk1s2
+   3:                APFS Volume Recovery                519.1 MB   disk1s3
+   4:                APFS Volume VM                      2.1 GB     disk1s4
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *31.5 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Olarila HS 2020         7.2 GB     disk2s2
+
+/dev/disk3 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk3
+   1:       Microsoft Basic Data backupzone              118.4 GB   disk3s1
+   2:       Microsoft Basic Data DATA                    462.4 GB   disk3s2
+   3:       Microsoft Basic Data Study zone              419.4 GB   disk3s3
+
+Target volume /Volumes/MAC on disk1 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'random'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
